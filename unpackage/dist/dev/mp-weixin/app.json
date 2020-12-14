@@ -1,14 +1,22 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/feedback/feedback"
+    "pages/feedback/feedback",
+    "pages/my/my"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F9FB",
-    "backgroundColor": "#FFFFFF"
+    "navigationBarTitleText": "演示",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "renderingMode": "seperated",
+    "pageOrientation": "portrait",
+    "rpxCalcMaxDeviceWidth": 960,
+    "rpxCalcBaseDeviceWidth": 375,
+    "rpxCalcIncludeWidth": 750
   },
-  "usingComponents": {}
+  "usingComponents": {
+    "collapse-tree-item": "/components/collapse-tree-item"
+  }
 }
