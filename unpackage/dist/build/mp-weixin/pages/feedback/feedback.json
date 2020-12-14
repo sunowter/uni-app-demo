@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "订单反馈页",
+  "usingComponents": {
+    "uni-rate": "/components/uni-rate/uni-rate"
+  }
+}
